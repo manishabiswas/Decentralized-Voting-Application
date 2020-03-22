@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electing The Power: World Bank President</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/customstyle.css" rel="stylesheet">
+</head>
+<body>
+  <div class ="body-particles" >
+    <div class="row title-div">
+      <div class="col-xs-12 col-sm-8 col-sm-push-2">
+        <h1 class="text-center">Electing The Power: World Bank President</h1>
+        <hr/>
+        <br/>
+      </div>
+    </div>
+    <div class="row table-center">
+      <div class="col-md-9 col-sm-9 middle" id="proposalRow"> 
+      </div>
+
+      <div id="proposalTemplate">
+        <div class="col-sm-3">
+          <div class="panel panel-default panel-proposal">
+            <div class="panel-heading">
+              <h3 class="panel-title"></h3>
+            </div>
+            <div class="panel-body">
+              <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center " id="img-holder"src="https://animalso.com/wp-content/uploads/2017/01/Golden-Retriever_6.jpg" data-holder-rendered="true">
+              <br/><br/>
+              <strong>Name</strong>: <span class="candidate_name"></span><br/>
+              <strong>Nationality</strong>: <span class="candidate_location"></span><br/><br/>
+              <div class="col-md-12 text-center"> 
+                <button class="btn btn-info btn-vote btn-sm" type="button">Up Vote</button>
+                <button class="btn btn-danger btn-downvote btn-sm" type="button">Down Vote</button>
+                <button class="btn btn-info btn-totalvote btn-sm" type="button">Total Vote</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 middle pull-right panel-body">
+        <button class="btn btn-info" type="button" id="chairperson">Chairperson</button>
+        <br>
+        <div class="state-div">
+         <div class="form-group" class ="state-options">
+          <label for="status_type">Status Type :</label>
+          <select class="form-control select_style" id="status_type">
+            <option value="1">Registration</option> 
+            <option value="2">Vote</option>  
+            <option value="3">Done</option> 
+          </select>
+        </div>
+
+        <button class="btn btn-success" type="button" id="change-state">Change State</button>
+      </div>
+      <br>
+      <br>
+      <div class="row" id="address_div">
+        <div class="form-group" id="address-option">
+          <label for="address">Address :</label>
+          <select class="form-control select_style" id="enter_address" value="">
+          </select>
+        </div>
+        <br>
+        <div class="form-group" id="voter-option">
+          <label for="voter_type">Voter Type :</label>
+          <select class="form-control select_style" id="voter_type">
+            <option value="0">Director</option>
+            <option value="1">Bank Employee</option>  
+          </select>
+        </div>
+
+        <br>
+        <button class="btn btn-info" type="button" id="register" style="float:right; margin-right: 41px;margin-top: 17px;">Register Voter</button>
+      </div>
+      <div class="winner-div">
+        <button class="btn btn-success" type="button" id="declare-winner" style="margin-top: 12px;
+        margin-left: 122px;">Declare Winner</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id ="particles"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/dist/bootstrap.min.js"></script>
+<script src="js/dist/web3.min.js"></script>
+<script src="js/dist/truffle-contract.js"></script>
+<script src="js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="js/dist/custom_particle.js"></script>
+</body>
+</html>

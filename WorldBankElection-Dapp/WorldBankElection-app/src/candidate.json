@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "nomination": "Nomination 1",
+    "picture": "images/david.jpg",
+    "Name": "David Malpass ",
+    "Nationality": "American"
+  },
+  {
+    "id": 1,
+    "nomination": "Nomination 2",
+    "picture": "images/HeidiCruz.jpg",
+    "Name": "Heidi Cruz",
+    "Nationality": "American"
+  },
+  {
+    "id": 2,
+    "nomination": "Nomination 3",
+    "picture": "images/Indra.jpg",
+    "Name": "Indra Nooyi",
+    "Nationality": "Indian"
+  }
+  
+]
