@@ -17,5 +17,17 @@ After the voting is done, the winner will be declared which is the candidate who
 
 ### 2.1 Use Case Diagram: 
 
+<img width="465" alt="1" src="https://user-images.githubusercontent.com/26536591/77241741-20253b00-6bcd-11ea-9dff-5dee236c986d.PNG">
+
+### 2.2 Architecture Diagram: 
+<img width="573" alt="2" src="https://user-images.githubusercontent.com/26536591/77241747-3632fb80-6bcd-11ea-9960-1163a30851da.PNG">
+
+## 3. Screenshots: 
+
+<img width="474" alt="3" src="https://user-images.githubusercontent.com/26536591/77241754-41862700-6bcd-11ea-8c50-9644b0344a48.PNG">
+
+<img width="439" alt="4" src="https://user-images.githubusercontent.com/26536591/77241755-4c40bc00-6bcd-11ea-9d3c-a11abb26fc37.PNG">
+
+## 4. Demo Video:
 
  
