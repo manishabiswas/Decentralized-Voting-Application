@@ -28,7 +28,7 @@ After the voting is done, the winner will be declared which is the candidate who
 
 <img width="439" alt="4" src="https://user-images.githubusercontent.com/26536591/77241755-4c40bc00-6bcd-11ea-9d3c-a11abb26fc37.PNG">
 
-##### 3. Demo Video: https://www.loom.com/share/65c5ef41c6e947509eea2630f1af47fc 
+### 4. Demo Video: https://www.loom.com/share/65c5ef41c6e947509eea2630f1af47fc 
 
 
 
